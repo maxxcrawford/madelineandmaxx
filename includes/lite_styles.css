@@ -1,0 +1,29 @@
+.cflite {
+	width: 500px;
+	xfont-family: Verdana, Geneva, sans-serif;
+}
+.cflite_td {
+	padding:4px;
+	font-size:12px;
+}
+.cflite p {
+	padding:4px;
+}
+.cflite label {
+	padding:4px;
+}
+label {
+ padding-right:10px
+}
+.required {
+ font-weight:bold;
+}
+.required_star {
+ font-weight: normal;
+ color:#F00;
+}
+.not-required {
+ font-weight:normal;
+}
+
+.rsvp	{color:#000; font-size: 11px; font-weight: normal}

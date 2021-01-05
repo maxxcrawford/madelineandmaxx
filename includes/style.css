@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p, div, td, table, span	{font-family: 'Vollkorn', serif;}
+
+
+img	{
+	border: none; 
+}
+
+
+img.shadow	{	-moz-box-shadow: 5px 5px 5px #CCC;
+	-webkit-box-shadow: 5px 5px 5px #CCC;
+	box-shadow: 5px 5px 5px #CCC;
+}
+
+a, a:hover, a:link, a:active, a:visited	{outline: none; border: 0;} 
+
+a, a:link, a:active, a:visited	{color: #a2587e; text-decoration: none;} 
+a:hover							{color: #a2587e; text-decoration: underline; }
+
+
+body		{margin: 0;}
+
+.background		{ background: url('../images/bg.png') top left repeat #F16615; margin: 0 0 30px; padding: 0;}
+.wrapper		{width: 1000px; margin: 0 auto;}
+.shadow		{
+	-moz-box-shadow: 0 0 15px #333;
+	-webkit-box-shadow: 0 0 15px #333;
+	box-shadow: 0 0 15px #333;
+}
+
+.shadow-top		{
+	-moz-box-shadow: 0 0 5px #303;
+	-webkit-box-shadow: 0 0 5px #303;
+	box-shadow: 0 0 5px #303;
+}
+
+.clear	{clear: both;}
+
+h2			{font-family: 'Vollkorn', serif; color: #000; font-size: 16px;} 
+
+.header		{height: 50px;  width: 100%; display: block; background: url('../images/bg-header.png') top left repeat-x #5f223e;}
+
+.topnav			{height: 50px; line-height: 50px; color: #FFF; text-align: center;}
+.topnav a		{color: #FFF; text-decoration: none; font-size: 15px; padding: 5px 10px; }
+.topnav a:hover	{background: #ea7a28; color: #333; padding: 5px 10px; text-decoration: none; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;}
+
+.topnav a.on 	{background: #ea7a28; color: #333; padding: 5px 10px; text-decoration: none; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;}
+
+
+div.spacer	{padding: 0 4px;}
+
+.cntSeparator {
+	font-size: 54px;
+	margin: 10px 7px;
+	color: #000;
+}
+.desc { margin: 7px 3px; }
+.desc div {
+	float: left;
+	font-family: Arial;
+	width: 70px;
+	margin-right: 65px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+img.photo	{padding: 5px; border: 1px solid #7E7E7C; background-color: #CCC;}
+
+.rounded	{border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px;}
+
+a.img-left	{float: left; margin-right: 30px;}
+a.img-right	{float: left;}
+
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 8px;
+	 }
+a.hideLink {
+	 }
+a.showLink:hover, a.hideLink:hover {
+	border-bottom: 1px dotted #36f; }
+	
+.sdiv	{width: 500px; float: right; text-align: left;}
+
+table.reg td	{text-align: center; padding: 5px;}
+
+table.contact td	{padding: 10px 0;}
+
+span.req	{color: #C30!important; padding: 0px 5px;}
